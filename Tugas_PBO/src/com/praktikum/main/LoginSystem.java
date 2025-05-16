@@ -25,7 +25,7 @@ public class LoginSystem {
         Admin adminUser = new Admin(namaAdminDefault, nimAdminDefault, usernameAdminValid, passwordAdminValid);
         Mahasiswa mahasiswaUser = new Mahasiswa(namaMahasiswaAnda, nimMahasiswaAnda);
 
-        System.out.println("Sistem Login PBO Modul 4");
+        System.out.println("Sistem Login");
         System.out.println("----------------------------");
         System.out.println("Pilih jenis login:");
         System.out.println("1. Admin");
@@ -40,7 +40,7 @@ public class LoginSystem {
             input.close();
             return;
         }
-        input.nextLine(); // Membersihkan buffer
+        input.nextLine();
 
         System.out.println("----------------------------");
 

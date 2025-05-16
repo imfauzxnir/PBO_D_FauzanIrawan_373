@@ -77,10 +77,6 @@ public class Admin extends User implements AdminActions { // Inheritance & Inter
                     System.out.println("Pilihan tidak valid.");
             }
         }
-        // Note: Closing Scanner here might close System.in, affecting other parts if not handled carefully.
-        // For this structure, it's acceptable as the main loop finishes after logout.
-        // menuInput.close(); // Closing Scanner inside the method might be problematic if main Scanner is still needed.
-        // Let's assume LoginSystem handles the main Scanner.
     }
 
     // Overriding displayInfo method (optional based on previous implementation)
